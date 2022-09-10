@@ -1,0 +1,18 @@
+Use the “employment.csv” data set and perform time series analysis and visualization through the 
+following questions. 
+
+1. Convert datestamp column to a datetime object and Set the datestamp columns as the index of 
+   your DataFrame. Check if there are missing values in each column.
+
+2. Generate a boxplot to find the distribution of unemployment rate for every industry .
+
+3. Using line chart Visualize the unemployment rate of workers by industry .
+
+4. Plot the monthly and yearly trends .
+
+5. Apply time series decomposition to your dataset to visualize the trend and seasonality .
+
+6. Visualize the seasonality of Agriculture, Health and Finance sector.
+
+7. Visualize the seasonality of multiple time series and the correlation between each time series 
+   in the dataset.
