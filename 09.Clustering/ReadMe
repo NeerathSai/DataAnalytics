@@ -1,0 +1,36 @@
+Download the data set “Online Retail.xlsx” from 
+https://archive.ics.uci.edu/ml/datasets/online+retail
+
+1. Read and write a summary of the metadata .
+
+2. Select only the transactions that have occurred from 01/04/ 2011 and 09/12/2011 and 
+   create a dataset.
+
+3. Calculate the RFM values for each customer (by customer id). RFM represents:
+   • R (Recency) − Recency should be calculated as the number of months before he 
+     or she has made a purchase from the online store. If he/she made a purchase in the 
+     month of December 2011, then the Recency should be 0. If purchase is made in 
+     November 2011 then Recency should be 1 and so on and so forth.
+  • F (Frequency) − Number of invoices by the customer from 01/04/ 2011 and 
+    09/12/2011.
+  • M (Monetary Value) − Total spend by the customer from 01/04/ 2011 and 
+    09/12/2011.
+
+4. Use the elbow method to identify how many customer segments exist, using the RFM
+   values for each customer.
+
+5. Create the customer segments with K-means algorithm by using number of clusters is 
+   suggested by elbow method.
+   from sklearn.cluster import KMeans
+
+6. Plot the clusters in a scatter plot and mark each segment differently using lmplot.
+
+7. Print the cluster centers of each customer segment and explain them intuitively.
+
+8. Create the customer segments with Agglomerative algorithm by using number of clusters 
+   is suggested by elbow method.
+   from sklearn.cluster import AgglomerativeClustering
+
+9. Visualize the clusters using the dendrogram.
+
+10. Compare the clusters obtained using KMeans vs. Agglomeration.
